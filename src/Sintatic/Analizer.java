@@ -24,7 +24,6 @@ public class Analizer {
 		if (currentIndex < input.length() && input.charAt(currentIndex) == 'a') {
 			currentIndex++;
 			if (currentIndex <= input.length() && input.charAt(currentIndex) == '°') {
-				System.out.println(input.charAt(currentIndex));
 				valid = true;
 			} else {
 				valid = B();
